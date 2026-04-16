@@ -48,10 +48,9 @@ Estudantes que buscam uma forma eficiente de organizar seus estudos e melhorar s
 
 Para instalar o sistema, é necessário:
 
-1. Ter o Node.js instalado  
-2. Baixar o projeto pelo GitHub  
-3. Acessar a pasta do projeto  
-4. Instalar as dependências com npm  
+1. Ter o Node.js instalado
+2. Ver se o node e o npm estão instalados  
+3. Baixar o projeto pelo GitHub  
 
 ---
 
@@ -60,8 +59,10 @@ Para instalar o sistema, é necessário:
 Para executar o sistema:
 
 1. Acesse a pasta do projeto no terminal  
-2. Instale as dependências com npm (Electron, Chart.js)  
-3. Execute o comando de inicialização  
+2. Instale as dependências com npm   
+3. Execute o comando de inicialização 
+4. Instalar as dependências (npm install)
+5. Após as instalações de o comando: npm start
 
 ---
 
