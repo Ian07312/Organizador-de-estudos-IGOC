@@ -44,13 +44,23 @@ Estudantes que buscam uma forma eficiente de organizar seus estudos e melhorar s
 
 ---
 
-## Instalação
+## 📥 Instalação
 
 Para instalar o sistema, é necessário:
 
-1. Ter o Node.js instalado
-2. Ver se o node e o npm estão instalados  
-3. Baixar o projeto pelo GitHub  
+- Ter o Node.js instalado  
+- Verificar se o Node e o npm estão funcionando corretamente  
+- Baixar o projeto pelo GitHub  
+
+```bash
+# Clonar o repositório
+git clone https://github.com/Ian07312/Organizador-de-estudos-IGOC.git
+
+# Acessar a pasta do projeto
+cd Organizador-de-estudos-IGOC
+
+# Instalar as dependências
+npm install
 
 ---
 
@@ -58,11 +68,12 @@ Para instalar o sistema, é necessário:
 
 Para executar o sistema:
 
-1. Acesse a pasta do projeto no terminal  
-2. Instale as dependências com npm   
-3. Execute o comando de inicialização 
-4. Instalar as dependências (npm install)
-5. Após as instalações de o comando: npm start
+1. git 
+2. Acesse a pasta do projeto no terminal  
+3. Instale as dependências com npm   
+4. Execute o comando de inicialização 
+5. Instalar as dependências (npm install)
+6. Após as instalações de o comando: npm start
 
 ---
 
@@ -72,7 +83,8 @@ Para rodar os testes do sistema:
 
 1. Acesse a pasta do projeto  
 2. Instale as dependências com npm  
-3. Execute o comando de testes  
+3. Execute o comando de testes
+4. Comando: npm tests
 
 Os testes automatizados com Jest serão executados, exibindo no terminal os resultados.
 
