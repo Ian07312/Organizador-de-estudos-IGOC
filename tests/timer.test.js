@@ -36,11 +36,11 @@ function timeToString(t) {
   let m = Math.floor((t % 3600000) / 60000);
   let s = Math.floor((t % 60000) / 1000);
 
-  return `${h.toString().padStart(2,"0")}:${m.toString().padStart(2,"0")}:${s.toString().padStart(2,"0")}`;
+  return `${h.toString().padStart(2,'0')}:${m.toString().padStart(2,'0')}:${s.toString().padStart(2,'0')}`;
 }
 
 test('formata tempo corretamente', () => {
-  expect(timeToString(3661000)).toBe("01:01:01");
+  expect(timeToString(3661000)).toBe('01:01:01');
 });
 
 // ===== TESTE DE STATUS =====
