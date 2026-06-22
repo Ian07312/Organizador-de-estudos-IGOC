@@ -1,0 +1,22 @@
++---------------------------------------------+
+       |                  CLIENTE                    |
+       |  Frontend: Interface Web (HTML5 / CSS3)    |
+       |  Lógica Assíncrona: JavaScript (app.js)     |
+       +---------------------------------------------+
+                              |
+                              |  Requisições HTTP
+                              |  (POST, GET, DELETE)
+                              v
+       +---------------------------------------------+
+       |                 SERVIDOR                    |
+       |  Backend: Node.js + Framework Express       |
+       |  Porta Local: http://localhost:3000         |
+       +---------------------------------------------+
+                              |
+                              |  Manipulação Local
+                              v
+       +---------------------------------------------+
+       |               PERSISTÊNCIA                  |
+       |  Estrutura de Dados Volátil (RAM / Mocks)   |
+       |  Arrays: let materias = []                  |
+       +---------------------------------------------+
